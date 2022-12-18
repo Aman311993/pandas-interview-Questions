@@ -1,0 +1,16 @@
+Question :. How to create a Series from a numpy array, list and dictionary?
+Solution : 
+import numpy as np
+list1=[1,2,3,4,5]
+data=pd.Series(list1)
+
+import numpy as np
+data=np.arange(10)
+df=pd.Series(data)
+print(df)
+
+
+import numpy as np 
+data={"Aman":20,"Ram":30,"Sita":34}
+df=pd.Series(data)
+df
