@@ -1,0 +1,24 @@
+Question : Explain different ways to create a dataframe ?
+Solution : 
+Create an empty data frame :
+import pandas as pd
+df=pd.DataFrame()
+print(df)
+
+Create a dataframe using list :
+list1=['Aman','Abhi','Rame','Shyam']
+df=pd.DataFrame(list1)
+print(df)
+
+Create a dataframe using dictionary of list :
+import pandas as pd
+data={"Name":['Aman','Shyam','Nick'],'Age':[20,21,22]}
+df=pd.DataFrame(data)
+print(df)
+
+ Creating Pandas DataFrame from lists of lists:
+import pandas as pd
+data=[['Aman',10],['Nick',12],['Ram',34]]
+df=pd.DataFrame(data, columns=['Name','Age'])
+print(df)
+
