@@ -1,0 +1,6 @@
+Question : How to create a series copy in Pandas?
+Solution : 
+import pandas as pd
+data=pd.Series([1,2],index=["a","b"])
+data1=data.copy(deep=True)
+data1
